@@ -1,5 +1,5 @@
 
-# Bus Ticket Booking Website
+# Cinema Ticket Booking Website
 ## Abstract:
 
 LynxCinema is an online platform designed to revolutionize the way people book movie tickets. With a user-friendly interface and a wide selection of cinemas and showtimes, LynxCinema makes it easy for moviegoers to plan their next outing. Our advanced booking system allows customers to reserve their seats in advance, ensuring a hassle-free experience. With LynxCinema, movie lovers can enjoy the magic of cinema like never before.
