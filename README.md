@@ -13,7 +13,7 @@ LynxCinema is an online platform designed to revolutionize the way people book m
 
 ## Authors
 
-- [@iamcoderdevesh](http://lynxcinema-001-site1.atempurl.com/Homepage.aspx)
+- [@iamcoderdevesh](https://github.com/iamcoderdevesh)
 
 
 ## License
@@ -22,7 +22,7 @@ LynxCinema is an online platform designed to revolutionize the way people book m
 
 
 ## 🔗 Demo
-[![Visit Website](https://img.shields.io/badge/-%20Visit%20Site-blue?style=for-the-badge)](https://iamcoderdevesh.github.io/BlueBus.com)
+[![Visit Website](https://img.shields.io/badge/-%20Visit%20Site-blue?style=for-the-badge)](http://lynxcinema-001-site1.atempurl.com/Homepage.aspx)
 
 ## 🚀 About Me
 - 👋 Hi, I’m Devesh Ukalkar
