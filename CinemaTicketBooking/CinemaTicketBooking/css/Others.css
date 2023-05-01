@@ -1,0 +1,104 @@
+﻿.parentContainer{
+    width:1366px;
+    height:700px;
+    display:flex;
+    flex-direction:column;
+   /* justify-content:center;*/
+    align-items:center;
+}
+.Options {
+    border:1px solid white;
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.MainOptions {
+    width: 150px;
+    height: 100px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.MainOptions2 {
+    width: 300px;
+    height: 100px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.MainOptions3 {
+    width: 400px;
+    height: 100px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.OptionsButton{
+    font-family:'Segoe UI';
+    font-size:22px;
+    color:#ffce26;
+    
+}
+.DateString {
+    position: relative;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+    color: #ffce26;
+    top:16px;
+}
+.Date {
+    position:relative;
+    width:225px;
+    left: 63px;
+    height:30px;
+    bottom: 16px;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+}
+.CityLabel {
+    position: relative;
+    top: 16px;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+    color: #ffce26;
+}
+.CityDropDown {
+    position: relative;
+    left: 63px;
+    bottom: 16px;
+    height: 35px;
+    width: 225px;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+}
+.TheatersString {
+    position: relative;
+    top: 16px;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+    color: #ffce26;
+}
+.TheatersListDD {
+    width:280px;
+    position: relative;
+    left: 105px;
+    bottom: 16px;
+    height: 35px;
+    
+    font-family: 'Segoe UI';
+    font-size: 22px;
+}
+.datagridBox{
+    margin-top:20px;
+    width:1200px;
+    height:400px;  
+}
+.MyGridview {
+    font-family: 'Segoe UI';
+    font-size: 22px;
+}

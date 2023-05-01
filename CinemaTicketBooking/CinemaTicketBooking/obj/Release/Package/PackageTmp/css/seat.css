@@ -1,0 +1,704 @@
+﻿body {
+    background: #080808;
+    font-family: Arial;
+}
+
+#movieName {
+    position: absolute;
+    left: 338px;
+    top: 145px;
+    text-shadow: 0 6px 10px rgb(0 0 0 / 50%);
+}
+
+#theatreName {
+    position: absolute;
+    left: 337px;
+    top: 178px;
+}
+
+#movieTime {
+    position: absolute;
+    left: 534px;
+    top: 178px;
+}
+
+#blur {
+    position: absolute;
+    left: 141px;
+    top: 212px;
+    width: 79%;
+    color: #ffffff00;
+    font-size: 22px;
+    z-index: 1;
+    background: #00000000;
+    display: inline;
+    backdrop-filter: blur(4px) saturate(68%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgb(0 0 0 / 15%);
+    /* border-radius: 12px; */
+    /* border: 1px solid rgba(255, 255, 255, 0.125); */
+    text-align: center;
+}
+
+div#availableSeat, div#availableName, div#selectedName, div#unavailabledName, div#selectedSeat, div#unavailableSeat {
+    color: white;
+}
+
+div#available {
+}
+
+#seatInfo {
+    background: #080808;
+    position: relative;
+    top: -167px;
+    left: 129px;
+    display: flex;
+    width: 84%;
+    height: 93px;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+span#screenWay {
+    color: white;
+    font-size: 19px;
+    z-index: 1;
+    position: relative;
+    top: -146px;
+    left: 614px;
+}
+
+div#availableSeat {
+    background: linear-gradient(to top,#c5c5c5,#c5c5c5,#c5c5c5,#c5c5c5,#c5c5c5,#eee,#fff);
+}
+
+div#selectedSeat {
+    background: linear-gradient(to top,#ffce26,#ffce26,#ffce26,yellow);
+}
+
+div#unavailableSeat {
+    background: linear-gradient(to top,#535353,#535353,#535353,gray,gray);
+}
+
+div#availableSeat, div#selectedSeat, div#unavailableSeat {
+    height: 35px;
+    width: 27px;
+    border-radius: 7px;
+    margin: 0px 20px 0px 0px;
+}
+
+#available, #selected, #unavailable {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+div#availableName {
+    /*top: 248px;
+    left: 516px;*/
+}
+
+
+#movieImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+
+/*.seat input {
+    height: 22px;
+    width: 22px;
+    cursor: pointer;
+}*/
+
+div#B {
+    /*position: relative;*/
+    /*top: 22px;*/
+    /*left: 34px;*/
+}
+
+div#A {
+    /*position: relative;*/
+    /*left: 34px;*/
+    /*top:-20px;*/
+}
+
+
+
+fieldset {
+    border: none;
+}
+
+input[type="checkbox"] {
+    line-height: 2.1ex;
+}
+
+input[type="checkbox"] {
+    position: absolute;
+    left: -999em;
+}
+
+    input[type="checkbox"] + label {
+        /*position: relative;*/
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    input[type="checkbox"]:checked + label::after {
+        content: '';
+        text-align: center;
+        position: absolute;
+        width: 1.2ex;
+        height: 0.4ex;
+        top: 0.9ex;
+        left: 0.4ex;
+        border: 3px solid #25c84700;
+        border-top: none;
+        border-right: none;
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+
+.eachSeat > label::before {
+    width: 26.81px;
+    height: 38.15px;
+    /*    border-radius: 7px;
+    display: block;
+    background: linear-gradient(to top,#c5c5c5,#c5c5c5,#c5c5c5,#c5c5c5,#c5c5c5,#eee,#fff);
+    margin: -30px 2px 10px;
+    position: relative;
+    transition: all .2s ease-in-out;*/
+    border-radius: 7px;
+    display: block;
+    background: linear-gradient(to top,#c5c5c5,#c5c5c5,#c5c5c5,#c5c5c5,#c5c5c5,#eee,#fff);
+    margin: -30px 2px 10px;
+    cursor: pointer;
+    position: relative;
+    transition: all .2s ease-in-out;
+}
+
+
+.eachSeat > input:checked + label::before {
+    background: linear-gradient(to top,#ffce26,#ffce26,#ffce26,yellow);
+}
+
+
+.eachSeat > label:hover:before {
+    background: linear-gradient(to top,#ffce26,#ffce26,#ffce26,yellow);
+    transform: translateY(-7px);
+    transition: all .2s ease-in-out;
+}
+
+span.seat {
+    display: inline-block;
+}
+
+.seat label::before {
+    text-align: center;
+    color: black;
+}
+
+#A1 + label::before, #B1 + label::before, #C1 + label::before, #D1 + label::before, #E1 + label::before, #F1 + label::before, #G1 + label::before, #H1 + label::before, #I1 + label::before, #J1 + label::before, #K1 + label::before, #L1 + label::before, #M1 + label::before {
+    content: "1";
+}
+
+#A2 + label::before, #B2 + label::before, #C2 + label::before, #D2 + label::before, #E2 + label::before, #F2 + label::before, #G2 + label::before, #H2 + label::before, #I2 + label::before, #J2 + label::before, #K2 + label::before, #L2 + label::before, #M2 + label::before {
+    content: "2";
+}
+
+#A3 + label::before, #B3 + label::before, #C3 + label::before, #D3 + label::before, #E3 + label::before, #F3 + label::before, #G3 + label::before, #H3 + label::before, #I3 + label::before, #J3 + label::before, #K3 + label::before, #L3 + label::before, #M3 + label::before {
+    content: "3";
+}
+
+#A4 + label::before, #B4 + label::before, #C4 + label::before, #D4 + label::before, #E4 + label::before, #F4 + label::before, #G4 + label::before, #H4 + label::before, #I4 + label::before, #J4 + label::before, #K4 + label::before, #L4 + label::before, #M4 + label::before {
+    content: "4";
+}
+
+#A5 + label::before, #B5 + label::before, #C5 + label::before, #D5 + label::before, #E5 + label::before, #F5 + label::before, #G5 + label::before, #H5 + label::before, #I5 + label::before, #J5 + label::before, #K5 + label::before, #L5 + label::before, #M5 + label::before {
+    content: "5";
+}
+
+#A6 + label::before, #B6 + label::before, #C6 + label::before, #D6 + label::before, #E6 + label::before, #F6 + label::before, #G6 + label::before, #H6 + label::before, #I6 + label::before, #J6 + label::before, #K6 + label::before, #L6 + label::before, #M6 + label::before {
+    content: "6";
+}
+
+#A7 + label::before, #B7 + label::before, #C7 + label::before, #D7 + label::before, #E7 + label::before, #F7 + label::before, #G7 + label::before, #H7 + label::before, #I7 + label::before, #J7 + label::before, #K7 + label::before, #L7 + label::before, #M7 + label::before {
+    content: "7";
+}
+
+#A8 + label::before, #B8 + label::before, #C8 + label::before, #D8 + label::before, #E8 + label::before, #F8 + label::before, #G8 + label::before, #H8 + label::before, #I8 + label::before, #J8 + label::before, #K8 + label::before, #L8 + label::before, #M8 + label::before {
+    content: "8";
+}
+
+#A9 + label::before, #B9 + label::before, #C9 + label::before, #D9 + label::before, #E9 + label::before, #F9 + label::before, #G9 + label::before, #H9 + label::before, #I9 + label::before, #J9 + label::before, #K9 + label::before, #L9 + label::before, #M9 + label::before {
+    content: "9";
+}
+
+#A10 + label::before, #B10 + label::before, #C10 + label::before, #D10 + label::before, #E10 + label::before, #F10 + label::before, #G10 + label::before, #H10 + label::before, #I10 + label::before, #J10 + label::before, #K10 + label::before, #L10 + label::before, #M10 + label::before {
+    content: "10";
+}
+
+#A11 + label::before, #B11 + label::before, #C11 + label::before, #D11 + label::before, #E11 + label::before, #F11 + label::before, #G11 + label::before, #H11 + label::before, #I11 + label::before, #J11 + label::before, #K11 + label::before, #L11 + label::before, #M11 + label::before {
+    content: "11";
+}
+
+#A12 + label::before, #B12 + label::before, #C12 + label::before, #D12 + label::before, #E12 + label::before, #F12 + label::before, #G12 + label::before, #H12 + label::before, #I12 + label::before, #J12 + label::before, #K12 + label::before, #L12 + label::before, #M12 + label::before {
+    content: "12";
+}
+
+#A13 + label::before, #B13 + label::before, #C13 + label::before, #D13 + label::before, #E13 + label::before, #F13 + label::before, #G13 + label::before, #H13 + label::before, #I13 + label::before, #J13 + label::before, #K13 + label::before, #L13 + label::before, #M13 + label::before {
+    content: "13";
+}
+
+#A14 + label::before, #B14 + label::before, #C14 + label::before, #D14 + label::before, #E14 + label::before, #F14 + label::before, #G14 + label::before, #H14 + label::before, #I14 + label::before, #J14 + label::before, #K14 + label::before, #L14 + label::before, #M14 + label::before {
+    content: "14";
+}
+
+#A15 + label::before, #B15 + label::before, #C15 + label::before, #D15 + label::before, #E15 + label::before, #F15 + label::before, #G15 + label::before, #H15 + label::before, #I15 + label::before, #J15 + label::before, #K15 + label::before, #L15 + label::before, #M15 + label::before {
+    content: "15";
+}
+
+#A16 + label::before, #B16 + label::before, #C16 + label::before, #D16 + label::before, #E16 + label::before, #F16 + label::before, #G16 + label::before, #H16 + label::before, #I16 + label::before, #J16 + label::before, #K16 + label::before, #L16 + label::before, #M16 + label::before {
+    content: "16";
+}
+
+#A17 + label::before, #B17 + label::before, #C17 + label::before, #D17 + label::before, #E17 + label::before, #F17 + label::before, #G17 + label::before, #H17 + label::before, #I17 + label::before, #J17 + label::before, #K17 + label::before, #L17 + label::before, #M17 + label::before {
+    content: "17";
+}
+
+#A18 + label::before, #B18 + label::before, #C18 + label::before, #D18 + label::before, #E18 + label::before, #F18 + label::before, #G18 + label::before, #H18 + label::before, #I18 + label::before, #J18 + label::before, #K18 + label::before, #L18 + label::before, #M18 + label::before {
+    content: "18";
+}
+
+#A19 + label::before, #B19 + label::before, #C19 + label::before, #D19 + label::before, #E19 + label::before, #F19 + label::before, #G19 + label::before, #H19 + label::before, #I19 + label::before, #J19 + label::before, #K19 + label::before, #L19 + label::before, #M19 + label::before {
+    content: "19";
+}
+
+#A20 + label::before, #B20 + label::before, #C20 + label::before, #D20 + label::before, #E20 + label::before, #F20 + label::before, #G20 + label::before, #H20 + label::before, #I20 + label::before, #J20 + label::before, #K20 + label::before, #L20 + label::before, #M20 + label::before {
+    content: "20";
+}
+
+div#section1 {
+}
+
+div#Allseat {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    position: relative;
+    bottom: 169px;
+    width: 100%;
+    min-height: calc(100vh - 200px);
+    margin: 0 auto;
+    padding: 10px 0 60px;
+    background: #080808;
+}
+
+#A, #B, #C, #D, #E, #F, #G, #H, #I, #J, #K, #L, #M {
+    display: flex;
+}
+
+
+div#leftA, div#leftB {
+    right: 32px;
+}
+
+div#rightA, div#rightB {
+    left: 32px;
+}
+
+    div#leftB > span > label::before, div#rightB > span > label::before, div#leftC > span > label::before, div#rightC > span > label::before {
+        padding: 0px 0.6px 0px 0px;
+    }
+
+div#leftB {
+    right: 38px;
+    bottom: 41px;
+}
+
+div#rightB {
+    left: 26px;
+    bottom: 41px;
+}
+
+#primeLabel {
+    right: 23px;
+}
+
+#primePlusLabel {
+    right: 38px;
+}
+
+span#classicLabel, span#primeLabel, span#primePlusLabel {
+    color: darkgray;
+    font-weight: bold;
+    font-size: 21px;
+    position: relative;
+    bottom: 11px;
+}
+
+div#section1, div#section2, div#section3 {
+    text-align: center;
+}
+
+
+div#leftC {
+    right: 36px;
+}
+
+div#rightC {
+    left: 29px;
+}
+
+div#leftD {
+    right: 42px;
+    bottom: 39px;
+}
+
+    div#leftD > span > label::before, div#rightD > span > label::before {
+        padding: 0px 1.2px 0px 0px;
+        height: 39px;
+    }
+
+
+div#rightD {
+    left: 23px;
+    bottom: 39px;
+}
+
+
+#rightA, #rightB, #rightC, #rightD, #rightE, #rightF, #rightG, #rightH, #rightI, #rightJ, #rightK, #rightL, #rightM, #leftA, #leftB, #leftC, #leftD, #leftE, #leftF, #leftG, #leftH, #leftI, #leftJ, #leftK, #leftL, #leftM {
+    position: relative;
+}
+
+div#leftE > span > label::before, div#rightE > span > label::before {
+    padding: 0px 1.6px 0px 0px;
+    height: 39px;
+}
+
+div#leftF > span > label::before, div#rightF > span > label::before {
+    padding: 0px 1.8px 0px 0px;
+    height: 40px;
+    width: 27.50px;
+}
+
+div#leftG > span > label::before, div#rightG > span > label::before {
+    padding: 0px 2.2px 0px 0px;
+    height: 41px;
+    width: 28px;
+}
+
+div#leftH > span > label::before, div#rightH > span > label::before {
+    padding: 0px 2.6px 0px 0px;
+    height: 41px;
+    width: 28px;
+}
+
+div#leftI > span > label::before, div#rightI > span > label::before {
+    padding: 0px 2.5px 0px 0px;
+    height: 41px;
+    width: 29px;
+}
+
+div#leftJ > span > label::before, div#rightJ > span > label::before {
+    padding: 0px 3.5px 0px 0px;
+    height: 41px;
+    width: 28.6px;
+}
+
+div#leftK > span > label::before, div#rightK > span > label::before {
+    padding: 0px 3.8px 0px 0px;
+    height: 42px;
+    width: 29px;
+}
+
+div#leftL > span > label::before, div#rightL > span > label::before {
+    padding: 0px 3.4px 0px 0px;
+    height: 43px;
+    width: 30px;
+}
+
+div#leftM > span > label::before, div#rightM > span > label::before {
+    padding: 0px 3.6px 0px 0px;
+    height: 44px;
+    width: 31px;
+}
+
+div#leftE {
+    right: 45px;
+    bottom: 77px;
+}
+
+div#rightE {
+    left: 20px;
+    bottom: 77px;
+}
+
+div#leftF {
+    right: 53px;
+    bottom: 114px;
+}
+
+div#rightF {
+    left: 11px;
+    bottom: 114px;
+}
+
+div#leftG {
+    right: 65px;
+    bottom: 152px;
+}
+
+#rightG {
+    left: -1px;
+    bottom: 152px;
+}
+
+
+div#section2 {
+    height: 189px;
+    position: relative;
+    left: 24px;
+}
+
+div#section1 {
+    height: 116px;
+}
+
+div#leftH {
+    right: 46px;
+}
+
+#rightH {
+    left: 19px;
+}
+
+div#leftI {
+    right: 48px;
+    bottom: 39px;
+}
+
+div#rightI {
+    left: 17px;
+    bottom: 39px;
+}
+
+#leftJ {
+    right: 26px;
+    bottom: 28px;
+}
+
+#leftJ {
+    right: 57px;
+    bottom: 77px;
+}
+
+div#rightJ {
+    left: 8px;
+    bottom: 77px;
+}
+
+div#leftK {
+    right: 67px;
+    bottom: 116px;
+}
+
+div#rightK {
+    left: -2px;
+    bottom: 116px;
+}
+
+div#leftL {
+    right: 71px;
+    bottom: 154px;
+}
+
+div#rightL {
+    left: -6px;
+    bottom: 154px;
+}
+
+
+div#leftM {
+    right: 87px;
+    bottom: 194px;
+}
+
+div#rightM {
+    left: -22px;
+    bottom: 194px;
+}
+
+/*#AL5::before, #AL12::before, #BL16::before, #DL20::before, #EL2::before, #EL3::before{
+    background: linear-gradient(to top,#535353,#535353,#535353,gray,gray);
+}*/
+
+
+#section3 {
+    position: relative;
+    left: 48px;
+    height: 0px;
+}
+
+
+#selectedSeatInfo {
+    width: 1370px;
+    height: 120px;
+    backdrop-filter: blur(14px) saturate(58%);
+    -webkit-backdrop-filter: blur(14px) saturate(58%);
+    background-color: rgba(255, 255, 255, 0.11);
+    /* border-radius: 0px; */
+    border: 1px solid rgba(255, 255, 255, 0.41);
+    position: fixed;
+    bottom: 0px;
+    right: -3px;
+    text-align: center;
+    z-index: 2;
+}
+
+#selectedTicektsDiv, #amountDiv, #ticketNoDiv {
+    background-color: #ffce26;
+    background-image: var(--bs-gradient);
+    
+    box-shadow: 0 1px 1px rgba(18,21,26,.075);
+    color: black;
+    border-radius: .375rem;
+    font-size: .875rem;
+    padding: 0.4em 1rem;
+    display: inline-flex;
+    align-items: center;
+    font-size: 19px;
+    border: 0.7px solid #fff9;
+}
+
+#selectedTicektsDiv {
+    position: relative;
+    top: 49px;
+    right: 173px;
+}
+
+#amountDiv {
+    position: relative;
+    top: 49px;
+    left: 206px;
+}
+
+#ticketNoDiv {
+    position: relative;
+    top: 47px;
+    right: 36px;
+}
+
+#corssIcon {
+    position: absolute;
+    right: 31px;
+    top: 23px;
+}
+
+#nextIcon {
+    position: relative;
+    left: 628px;
+    top: 4px;
+}
+
+
+#Label1 {
+    color: white;
+}
+.SelctedTime{
+        position: relative;
+    top: 50px;
+    right: 300px;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+    background-color: #ffce26;
+    padding: 5px 44px;
+    border-radius: 12px;
+}
+/*//--------------------------------------//*/
+#selectedTicektsDiv {
+    position: relative;
+    top: 49px;
+    background-color: #ffce26;
+    border: 2px solid #ffce26;
+    right: 173px;
+}
+
+#amountDiv {
+    position: relative;
+    top: 49px;
+    background-color: #ffce26;
+    border: 2px solid #ffce26;
+    left: 206px;
+}
+
+#ticketNoDiv {
+    position: relative;
+    top: 47px;
+    background-color: #ffce26;
+    border: 2px solid #ffce26;
+    right: 36px;
+}
+#moviePoster {
+    position: relative;
+    width: 1366px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#movieName {
+    position: relative;
+    left: 10px;
+    top: 3px;
+    color: #ffce26;
+    text-shadow: 0 6px 10px rgb(0 0 0 / 50%);
+}
+
+#theatreName {
+    position: relative;
+    font-size: 1.5rem;
+    top: 8px;
+    left: -243px;
+}
+
+
+
+#movieTime {
+    position: relative;
+    font-size: 1rem;
+    /* left: 0px; */
+    top: -14px;
+    left: 247px;
+}
+#movieImg {
+    position: relative;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+span#screenWay {
+    color: white;
+    font-size: 19px;
+    z-index: 1;
+    position: relative;
+    top: -50px;
+    left: 590px;
+}

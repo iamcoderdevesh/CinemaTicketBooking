@@ -1,0 +1,87 @@
+﻿.ParentContainer{
+    width:1366px;
+    height:550px;
+   font-family:'Segoe UI';
+   display:flex;
+   justify-content:center;
+   align-items:center;
+}
+.UpdateForm {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ffce26;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    border-radius:12px;
+}
+.MoviesTable {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NowShowingClass{
+    font-family:'Segoe UI'
+}
+.UpdateForm{
+    font-size:25px;
+    color:#ffce26;
+}
+.FormElements{
+    margin-bottom:20px;
+}
+.MovieId{
+   margin:30px;
+}
+.Idstring {
+    margin-right: 35px;
+    position: relative;
+    right: 55px;    
+}
+.MovieName1,.MovieName2 {
+   margin:30px;
+    width: 286px;
+    height: 30px;
+    font-size:16px;
+    outline:none;
+    border:none;
+    border-bottom:1px solid white;
+    background-color:transparent;
+    color:white;
+}
+    .MovieName1::placeholder, .MovieName2::placeholder {
+        color: #ffce26;
+    }
+.Moviefile{
+    margin:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.Uploadlabel {
+    margin-left:95px;
+}
+.fileUpload {
+    margin-left: 12px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.UpdateMovieSubmit {
+    margin-top: 20px;
+    background-color: transparent;
+    width: 200px;
+    border: 1px solid #ffce26;
+    color: #ffce26;
+    font-size: 16px;
+    padding: 6px 5px;
+    border-radius: 5px;
+}
+.UploadIndicator{
+    color:green;
+    position:relative;
+    right:35px;
+    font-size:16px;
+}

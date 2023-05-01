@@ -1,0 +1,144 @@
+﻿.Parent_Panel_Cinema {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b1b1b;
+}
+.Child_panel_movies {
+    width: 300px;
+    height: 300px;
+    margin: 12px;
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255,255,0.2);
+    text-decoration: none !important;
+    overflow: hidden;
+}
+    .Child_panel_movies .img {
+        width: 300px;
+        height: 200px;
+        border-radius: 5px;
+        background-size: contain;
+        background-repeat: round;
+        background-position: inherit;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+    }
+
+    .Child_panel_movies:hover .img {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+
+    .Child_panel_movies .MovieLbl1 {
+        position: relative;
+        left: 5px;
+        top: 8px;
+        letter-spacing: 0.2mm;
+        color: #ffd800;
+        font-family: 'Arial Narrow', Arial, sans-serif;
+        font-weight: 700;
+        color: white;
+        font-size: 20px
+    }
+
+
+    .Child_panel_movies .MovieLbl2 {
+        position: relative;
+        left: 5px;
+        top: 5px;
+        color: #ffd800;
+        font-family: 'Arial Narrow', Arial, sans-serif;
+        font-size: 12px;
+        font-weight: 900;
+        color: white;
+    }
+
+/* Carousel Section */
+
+.carousel-inner {
+    z-index: -1;
+}
+    .carousel-item {
+    transition: transform .8s ease-in-out;
+}
+
+/* Now Showing Section */
+
+.now-showing-title {
+    background-color: #1b1b1b;
+    padding: 30px 45px;
+}
+
+.now-showing-title h1 {
+    font-size: 1.5rem;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+}
+
+.view-all {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #1b1b1b;
+    padding-bottom: 20px;
+}
+
+.view-all-text {
+    font-size: .85rem;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.view-all i {
+    color: white;
+    margin-left: 3px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.view-effect {
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+    .view-effect:hover span,
+    .view-effect:hover i {
+        color: #ffce26;
+    }
+
+
+/* Comming Soon Section */
+
+.Comming-soon-title {
+    background-color: #1b1b1b;
+    padding: 20px 45px;
+    padding-top: 100px;
+}
+
+    .Comming-soon-title h1 {
+        font-size: 1.5rem;
+        color: #fff;
+        letter-spacing: 2px;
+        margin-bottom: 0px;
+        text-transform:capitalize;
+    }
+/*.selectLocation {
+    width: 1366px;
+    height: 768px;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+*/
+
+

@@ -1,0 +1,302 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="LynxMasterPage2.master.cs" Inherits="CinemaTicketBooking.LynxMasterPage2" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+     <link rel="stylesheet" href="css/LynxMaster2.css" />
+   
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            
+            <div id="navigationbar">
+            <div id="navbar">
+            <div class="logo">
+            <image class="logo" alternate="logoimage" src="images/LynxCinemaLogo.jpeg"></image>
+           </div>
+                <div class="SearchBarContainer">
+                    <div class="SearchBar">                        
+<%--                    <asp:TextBox ID="SearchInput" class="SearchBarInput" placeholder="Search movies or theaters.." runat="server"></asp:TextBox>
+                        <asp:Button ID="btnSearch" runat="server" class="SearchButton" OnClick="btnSearch_Click"  />--%>
+                        <input type="text" name="" id="search-item" placeholder="Search Movies..." onkeyup="searchMovies()">
+                        <section class="suggestion-box">
+                                <div class="movies-list" id="movie-list">
+                                    <div class="movies-list-col">
+                                        <a href="#">
+                                            <img src="search-images/search_image_1.png" alt="">
+                                            <div class="m-details">
+                                                <h2>BHEDIYA</h2>
+                                                <h3>2h 36m | CREATURE COMEDY</h3>
+                                                <h3>• HINDI</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="movies-list-col">
+                                        <a href="#">
+                                            <img src="search-images/search_image_2.png" alt="">
+                                            <div class="m-details">
+                                                <h2>BLACK PANTHER: WAKANDA FOREVER</h2>
+                                                <h3>2h 41m | ACTION</h3>
+                                                <h3>• HINDI • ENGLISH • TELUGU • TAMIL</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="movies-list-col">
+                                        <a href="#">
+                                            <img src="search-images/search_image_3.png" alt="">
+                                            <div class="m-details">
+                                                <h2>AVATAR: THE WAY OF WATER</h2>
+                                                <h3>3h 12m | ACTION</h3>
+                                                <h3>• HINDI • TELUGU • ENGLISH • KANNADA • TAMIL</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="movies-list-col">
+                                        <a href="#">
+                                            <img src="search-images/search_image_4.png" alt="">
+                                            <div class="m-details">
+                                                <h2>DRISHYAM 2</h2>
+                                                <h3>2h 25m | THRILLER</h3>
+                                                <h3>• HINDI</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="movies-list-col">
+                                        <a href="#">
+                                            <img src="search-images/search_image_5.png" alt="">
+                                            <div class="m-details">
+                                                <h2>KANTARA</h2>
+                                                <h3>2h 30m | THRILLER</h3>
+                                                <h3>• TELUGU • HINDI • MALAYALAM • TAMIL • KANNADA</h3>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                        </section>
+                     </div>
+                </div>
+                <div class="SelectlocationContainer">
+                    <div class="Selectlocation " >
+                       <img src="images/navigation.png"  alt="location" class="locationImg"/>
+                        <asp:DropDownList ID="SelectCity" runat="server" CssClass="DropDownList">
+                            <asp:ListItem class="ListItem">Mumbai</asp:ListItem>
+                            <asp:ListItem class="ListItem">Kolkata</asp:ListItem>
+                            <asp:ListItem class="ListItem">Chennai</asp:ListItem>
+                            <asp:ListItem class="ListItem">Hyderabad</asp:ListItem>
+                            <asp:ListItem class="ListItem">Chandigarh</asp:ListItem>
+                            <asp:ListItem class="ListItem">Dehli-NCR</asp:ListItem>
+                            <asp:ListItem class="ListItem">Bengaluru</asp:ListItem>
+                            <asp:ListItem class="ListItem">Ahmedabad</asp:ListItem>
+                           
+                            <asp:ListItem class="ListItem">Pune</asp:ListItem>
+                        </asp:DropDownList>
+                </div>
+             </div>
+            
+             
+            <div class="sidebar">
+                <div class="logo-details">
+                  <i class="fa-solid fa-bars" id="btn"></i>
+                </div>
+                <ul class="nav-list">
+                  <li>
+                      <asp:Image ID="UserImage" runat="server" ImageUrl="~/images/avatar.png" Height="32px" Width="32px" Visible="False" />
+                      <asp:Label ID="UsernameString" runat="server" Text="Username" CssClass="UsernameString" Visible="False"></asp:Label>
+                      <asp:Button ID="LogOutButton" runat="server" Text="LogOut" CssClass="LogOutButton" Height="36px" OnClick="LogOutButton_Click" Visible="False" Width="100px" />
+                      <asp:TextBox ID="EnterEmailInput" runat="server" placeholder="Enter Email"></asp:TextBox><br />  
+                      <%--<asp:RequiredFieldValidator ID="RequiredFieldValidatorEmail" runat="server" ErrorMessage="Enter Email" ControlToValidate="EnterEmailInput" CssClass="ReqFieldEmailCLass"></asp:RequiredFieldValidator>--%>
+                      <asp:RegularExpressionValidator ID="EmailValidator" runat="server" ErrorMessage="Invalid Email" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*" ControlToValidate="EnterEmailInput" CssClass="EmailValidatorClass" ></asp:RegularExpressionValidator>
+                      <asp:TextBox ID="EnterPassword" runat="server" placeholder="Password" CssClass="EnterPasswordInput" TextMode="Password"></asp:TextBox>
+                      <%--<asp:RequiredFieldValidator ID="RequiredFieldValidatorPassword" runat="server" ErrorMessage="Enter Password" ControlToValidate="EnterPassword" ForeColor="Red"></asp:RequiredFieldValidator>--%>
+                      <asp:Label ID="InvalidLoginCredentials" runat="server" Text="Invalid Login Credentials" CssClass="InvalidLoginCredentials" Visible="False" Width="300px"></asp:Label>
+
+                    <span class="tooltip">Search</span>
+                  </li>
+                  <li>
+                      <asp:Button ID="LoginButton" runat="server" Text="LOGIN" CssClass="LoginButton" OnClick="LoginButton_Click"  />
+                    
+                    <span class="tooltip">Dashboard</span>
+                  </li>
+                  <li>
+                     <%-- <button class="links_name" style="background: transparent; color: white; border: 1px solid;">Don't have an account? Sign up</button>--%>
+                      <asp:Button ID="SignUpButton" runat="server" Text="Don't have an account? Sign up" style="background: transparent; color: white; border: 1px solid;" CssClass="links_name" OnClick="SignUpButton_Click"/>
+                  </li>
+              <%--    <li class="social-btn-group">
+                    <button class="social-btn"><i class="fa-brands fa-square-facebook"></i></button>
+                    <button class="social-btn google"><i class="fa-brands fa-google-plus-g"></i></button>
+                  </li>--%>
+
+                  <li class="divider-parent">
+                    <div class="divider"></div>
+                  </li>
+
+                  <li class="side-bar-list-item">
+                    <a href="under_development.aspx">Cinemas</a>
+                  </li>
+
+                  <li class="side-bar-list-item">
+                    <a href="under_development.aspx">Privilege</a>
+                  </li>
+
+                  <li class="side-bar-list-item">
+                    <a href="under_development.aspx">Merchandise</a>
+                  </li>
+
+                  <li class="side-bar-list-item">
+                    <a href="under_development.aspx">Offer & Exclusives</a>
+                  </li>
+
+                  <li class="side-bar-list-item">
+                    <a href="under_development.aspx">Gift Cards</a>
+                  </li>
+
+                  <li class="side-bar-list-item">
+                    <a href="under_development.aspx">Movie Library</a>
+                  </li>
+
+                  <li class="side-bar-list-item">
+                    <a href="under_development.aspx">Movie On Demand</a>
+                  </li>
+
+                  <li class="side-bar-list-item">
+                    <a href="under_development.aspx">Book/Cancel Cab</a>
+                  </li>
+
+                  <li class="side-bar-list-item">
+                    <a href="IMAX.aspx">About Us</a>
+                  </li>
+
+                  <li class="side-bar-list-item">
+                    <a href="under_development.aspx">Investors Section</a>
+                  </li>
+                    
+                   <li class="side-bar-list-item">
+                     <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                  </li>
+                </ul>
+              </div>
+
+            </div>
+            <div id="navbar2">
+                  <div class="opt1">
+                <ul>
+                    <asp:HyperLink ID="HyperLink1" runat="server" CssClass="list" NavigateUrl="~/IMAX.aspx">IMAX</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink2" runat="server" CssClass="list" NavigateUrl="~/under_development.aspx">4DX</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink3" runat="server" CssClass="list" NavigateUrl="~/under_development.aspx">Playhouse</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink4" runat="server" CssClass="list" NavigateUrl="~/under_development.aspx">Gold</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink5" runat="server" CssClass="list" NavigateUrl="~/under_development.aspx">LUXE</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink6" runat="server" CssClass="list" NavigateUrl="~/under_development.aspx">ONYX</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink7" runat="server" CssClass="list" NavigateUrl="~/AdminHomePage.aspx">Admin</asp:HyperLink>
+                   
+                   
+                </ul>
+
+            </div>
+            <div class="opt2">
+                <ul>
+                    <asp:HyperLink ID="HyperLink8" runat="server" CssClass="list" NavigateUrl="~/under_development.aspx">Cinemas</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink9" runat="server" CssClass="list" NavigateUrl="~/under_development.aspx">Offers</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink10" runat="server" CssClass="list" NavigateUrl="~/under_development.aspx">Advertise</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink11" runat="server" CssClass="list" NavigateUrl="~/under_development.aspx">Gift Cards</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink12" runat="server" CssClass="list" NavigateUrl="~/under_development.aspx">Movie Library</asp:HyperLink>
+                   
+                </ul>
+            </div>
+            </div>
+            </div>
+            <asp:Panel ID="selectLocation" runat="server" CssClass="selectLocation">
+          
+               <div class="mylocationContainer">
+                   <div class="box1">
+                       <asp:Label ID="Mylocation" runat="server" Text="Select Your Location" CssClass="MyLocationString"></asp:Label></div>
+                   <hr />
+                   <div class="box2">
+
+                       <asp:LinkButton ID="Mumbai" runat="server" Width="100px" Height="130px" CssClass="citylinkbox" CausesValidation="False" OnClick="Mumbai_Click1" ><div class="imagecircle"><img src="images/mumbai.png" alt="mumbai" /></div><h3>Mumbai</h3></asp:LinkButton>
+                       <asp:LinkButton ID="Chennai" runat="server" Width="100px" Height="130px" CssClass="citylinkbox" OnClick="Chennai_Click" CausesValidation="False"><div class="imagecircle"><img src="images/Chennai.png" alt="mumbai" /></div><h3>Chennai</h3></asp:LinkButton>
+                       <asp:LinkButton ID="Bengaluru" runat="server" Width="100px" Height="130px" CssClass="citylinkbox" OnClick="Bengaluru_Click" CausesValidation="False"><div class="imagecircle"><img src="images/Bangaluru12.png" alt="mumbai" /></div><h3>Bengaluru</h3></asp:LinkButton>
+                       <asp:LinkButton ID="Ahmedabad" runat="server" Width="100px" Height="130px" CssClass="citylinkbox" OnClick="Ahmedabad_Click" CausesValidation="False"><div class="imagecircle"><img src="images/Ahmedabad.png" alt="mumbai" /></div><h3>Ahmedabad</h3></asp:LinkButton>
+                       <asp:LinkButton ID="Hyderabad" runat="server" Width="100px" Height="130px" CssClass="citylinkbox" OnClick="Hyderabad_Click" CausesValidation="False"><div class="imagecircle"><img src="images/Hyderabad.png" alt="mumbai" /></div><h3>Hyderabad</h3></asp:LinkButton>
+                       <asp:LinkButton ID="Chandigarh" runat="server" Width="100px" Height="130px" CssClass="citylinkbox" OnClick="Chandigarh_Click" CausesValidation="False"><div class="imagecircle"><img src="images/Chandigarh.png" alt="mumbai" /></div><h3>Chandigarh</h3></asp:LinkButton>
+                       <asp:LinkButton ID="DelhiNCR" runat="server" Width="100px" Height="130px" CssClass="citylinkbox" OnClick="DelhiNCR_Click" CausesValidation="False"><div class="imagecircle"><img src="images/Delhi-NCR1.png" alt="mumbai" /></div><h3>Delhi-NCR</h3></asp:LinkButton>
+                       <asp:LinkButton ID="Kolkata" runat="server" Width="100px" Height="130px" CssClass="citylinkbox" OnClick="Kolkata_Click" CausesValidation="False"><div class="imagecircle"><img src="images/Kolkata.png" alt="mumbai" /></div><h3>Kolkata</h3></asp:LinkButton>
+                   </div>
+               </div>
+         </asp:Panel>
+            <asp:ContentPlaceHolder ID="LynxMasterPage" runat="server">
+            </asp:ContentPlaceHolder>
+            <footer id="FooterContainer">
+                <div class="Footerpart1">
+                    <div class="col1-f1">
+                        <h3>GENERAL</h3>
+                         <ul>
+                    <li class="list"><a href="#">ABOUT US</a><span>><a href="#">EVENTS</a></span></li>
+                    <li class="list"><a href="#">FAQ'S</a><span>><a href="#">NVSP</a></span></li>
+                    <li class="list"><a href="#">INVESTORS SECTION</a></li>
+                    <li class="list"><a href="#">CAREER</a></li>
+                    <li class="list"><a href="#">NEWS</a></li>
+                    <li class="list"><a href="#">FEEDBACK</a></li>
+
+                       </ul> 
+                    </div>
+                    <div class="col2-f1">
+                         <h3>OUR BRANDS</h3>
+                         <ul>
+                    <li class="list"><a href="#">LYNX DIRECTOR'S CUT</a><span>><a href="#">LYNX LUXE</a></span></li>
+                    <li class="list"><a href="#">LYNX PICTURES</a><span>><a href="#">LYNX P[XL]</a></span></li>
+                    <li class="list"><a href="#">LYNX IMAX</a><span>><a href="#">LYNX ONYX</a></span></li>
+                    <li class="list"><a href="#">LYNX 4DX</a><span>><a href="#">LYNX NEST</a></span></li>
+                    <li class="list"><a href="#">PLAYHOUSE</a><span>><a href="#">V PRISTINE</a></span></li>
+                    <li class="list"><a href="#">LYNX GOLD</a></li>
+
+                       </ul> 
+                    </div>
+                    <div class="col3-f1">
+                         <h3>CINEMAS</h3>
+                         <ul>
+                    <li class="list"><a href="#">CINEMAS</a></li>
+                    <li class="list"><a href="#">UPCOMING</a></li>
+                    <li class="list"><a href="#">ADVERTISE</a></li>
+                    <li class="list"><a href="#">BEYOND MOVIES</a></li>
+                    <li class="list"><a href="#">BIRTHDAY REQUEST</a></li>
+                    <li class="list"><a href="#">SUBSCRIBE TO NEWSLETTER</a></li>
+
+                       </ul> 
+                    </div>
+                </div>
+                <div class="Footerpart2">
+                    <div class="row1-f2">
+                        <img src="images/Paytm-Logo.wine.png" alt="supports" class="supportimage"/>
+                        <img src="images/notonsecure.png" alt="supports"class="supportimage"/>
+                        <a href="#">PRIVACY<br />POLICY</a>
+                        <a href="#">TERMS &<br />CONDITIONS</a>
+                        <a href="#">TERMS OF<br />USE</a>
+                         <img src="images/facebook.png" alt="socialmedia" class="socialmediastart"/>
+                         <img src="images/google-plus.png" alt="socialmedia" class="socialmedia"/>
+                         <img src="images/youtube.png" alt="socialmedia" class="socialmedia"/>
+                         <img src="images/twitter.png" alt="socialmedia" class="socialmedia"/>
+                         <img src="images/instagram.png" alt="socialmedia" class="socialmedia"/>
+                         <img src="images/linkedin.png" alt="socialmedia" class="socialmedia"/>
+                    </div>
+                    <div class="row2-f2">
+                        <p>COPYRIGHT © 2022 LYNX CINEMAS LTD. ALL RIGHTS RESERVED.</p>
+                    </div>
+                </div>
+        </footer>
+        </div>
+
+    </form>
+
+    <script src="javascript/LynxCinemaMaster2.js"></script>
+
+    
+
+
+</body>
+</html>

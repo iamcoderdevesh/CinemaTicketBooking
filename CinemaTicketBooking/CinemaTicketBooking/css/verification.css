@@ -1,0 +1,114 @@
+﻿* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+.verification-section {
+    height: 100%;
+    width: 1366px !important;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0,0,0);
+    padding: 50px 0px;
+}
+
+.container {
+    position: relative;
+    width: 700px;
+    height: 350px;
+    left: 25%;
+    top: 15%;
+    background-color: rgb(16,16,16);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 2px solid rgb(40,40,40);
+}
+
+.upperlbl {
+    position: absolute;
+    width: auto;
+    font-size: 15px;
+    color: aliceblue;
+    left: 12%;
+    top: 15%;
+}
+.vercode {
+    position: relative;
+    color: aliceblue;
+    left: 20%;
+    top: 80px;
+}
+.inputcode {
+    position: relative;
+    width: 200px;
+    background-color: rgb(24,24,24);
+    color: aliceblue;
+    border: 2px solid rgb(60,60,60);
+    border-radius: 5px;
+    left: 28%;
+    top: 80px;
+}
+
+.lowerlbl {
+    position: relative;
+    font-size: 1rem;
+    color: red;
+    left: 50%;
+    top: 20%;
+}
+
+.backbtn {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    left: 15%;
+    top: 40%;
+    border-radius: 5px;
+}
+.verifybtn {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    left: 55%;
+    top: 40%;
+    border-radius: 5px;
+}
+
+.toplbl {
+    position: relative;
+    width: auto;
+    font-size: 2rem;
+    color: aliceblue;
+    left: 20%;
+    top: 10%;
+}
+
+.msglbl {
+    position: relative;
+    font-size: 1.2rem;
+    color:aliceblue;
+    left: 20%;
+    top: 30%;
+}
+
+.continuebtn {
+    position: relative;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    left: 55%;
+    top: 40%;
+    border-radius: 5px;
+    background-color: rgb(255, 195, 0);
+    color:aliceblue;
+    
+}
+

@@ -1,0 +1,207 @@
+﻿.parentConatiner{
+    height:550px;
+    width:1366px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.formContainer{
+    height:500px;
+    width:1000px;
+    border:1px solid #ffce26;
+    border-radius:15px;
+
+}
+.AddMoviesToTheater {
+    position: relative;
+    left:407px;
+    top: 20px;
+    color: #ffce26;
+    font-family: 'Segoe UI';
+    text-decoration: underline;
+    font-size: 22px;
+}
+.MovieName {
+    position: relative;
+    left: 30px;
+    top: 50px;
+    color: #ffce26;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+}
+.MovieNameDropDown {
+    position: relative;
+    left: 70px;
+    top: 52px;
+    width: 250px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+    outline: none;
+}
+.CityName {
+    position: relative;
+    left: 30px;
+    top: 84px;
+    color: #ffce26;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+}
+.CityNameDropDown {
+    position: relative;
+    left: 157px;
+    top: 85px;
+    width: 250px;
+    border: none;
+    background-color: white;
+    color:black;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+    outline: none;
+}
+.date {
+    position: relative;
+    left: 30px;
+    top: 120px;
+    color: #ffce26;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+}
+.calender {
+    position: relative;
+    left: 203px;
+    top: 87px;
+    width:250px;
+}
+.TheaterName {
+    position: relative;
+    left: 98px;
+    top: 54px;
+    color: #ffce26;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+}
+.TheaterList {
+    position: relative;
+    left: 116px;
+    top: 53px;
+    width: 350px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+    outline: none;
+}
+.Show1 {
+    position: relative;
+    left: 192px;
+    top: 84px;
+    color: #ffce26;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+}
+.hours {
+    border: none;
+    outline: none;
+    width: 100px;
+    position: relative;
+    left: 212px;
+    top: 85px;
+    color: Black;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+   
+    border-bottom: 1px solid #ffce26;
+}
+.Show2 {
+    position: relative;
+    left: 489px;
+    top: 22px;
+    color: #ffce26;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+}
+.hours2 {
+    border: none;
+    outline: none;
+    width: 100px;
+    position: relative;
+    left: 510px;
+    top:23px;
+    color:Black;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+    
+    border-bottom: 1px solid #ffce26;
+}
+.Show3 {
+    position: relative;
+    left: 489px;
+    top:60px;
+    color: #ffce26;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+}
+
+.hours3 {
+    border: none;
+    outline: none;
+    width: 100px;
+    position: relative;
+    left: 510px;
+    top:60px;
+    color: Black;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+    border-bottom: 1px solid #ffce26;
+}
+.chooseDate {
+    color: Black;
+    font-family: 'Segoe UI';
+    font-size: 22px;
+    width: 250px;
+    height:30px;
+}
+.AddMoviesSubmit {
+    position: relative;
+    top: 110px;
+    left: 190px;
+    margin-top: 20px;
+    background-color: transparent;
+    width: 250px;
+    border: 1px solid #ffce26;
+    color: #ffce26;
+    font-size: 16px;
+    padding: 6px 5px;
+    border-radius: 5px;
+}
+.SelectDateValidator {
+    position: relative;
+    top: 73px;
+    left: 202px;
+    font-family: 'Segoe UI';
+}
+.SelectTiimeShow1 {
+    position: relative;
+    bottom: 130px;
+    left: 702px;
+}
+.SelectTiimeShow2 {
+    position: relative;
+    bottom: 60px;
+    left: 630px;
+}
+.SelectTiimeShow3 {
+    position: relative;
+    top: 10px;
+    left: 558px;
+}
+.MyIndicator {
+    position: relative;
+    top: 125px;
+    left: 50px;
+}
+

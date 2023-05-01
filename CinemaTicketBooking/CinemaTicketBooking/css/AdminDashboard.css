@@ -1,0 +1,41 @@
+﻿.AdminDashboradDiv{
+     width:1366px;
+     height:1000px;
+   
+}
+.theaterimage {
+    width: 1366px;
+    height: 400px;
+    background-image: url("../images/TheaterSeatImage2.jpg");
+    filter:brightness(25%);
+    
+}
+.Paragraph{
+    width:1366px;
+    height:630px;
+   
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.Vision,.Mission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+    .Vision h3, .Mission h3{
+        color: #ffCE26;
+        font-family: 'Segoe UI';
+        font-size: 25px;
+    }
+    .Vision p, .Mission p {
+        font-family: 'Segoe UI';
+        font-size: 19px;
+    }
+.AboutLynx {
+    width:1250px;
+    font-family: 'Segoe UI';
+    font-size: 19px;
+}

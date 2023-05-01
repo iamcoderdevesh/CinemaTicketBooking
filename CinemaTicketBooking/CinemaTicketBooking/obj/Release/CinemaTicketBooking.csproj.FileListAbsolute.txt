@@ -1,0 +1,183 @@
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\CinemaTicketBooking.dll.config
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\CinemaTicketBooking.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\CinemaTicketBooking.pdb
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\csc.exe
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\csc.exe.config
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\csc.rsp
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\csi.exe
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\csi.exe.config
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\csi.rsp
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.Managed.Core.targets
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.AppContext.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Collections.Immutable.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Console.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Globalization.Calendars.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.IO.Compression.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.IO.FileSystem.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Net.Http.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Net.Sockets.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Reflection.Metadata.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.ValueTuple.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Xml.XmlDocument.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Xml.XPath.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\vbc.exe
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\vbc.exe.config
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\vbc.rsp
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\VBCSCompiler.exe
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\VBCSCompiler.exe.config
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\obj\Release\CinemaTicketBooking.csproj.AssemblyReference.cache
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\obj\Release\CinemaTicketBooking.csproj.CoreCompileInputs.cache
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\obj\Release\CinemaTicketBooking.csproj.CopyComplete
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\obj\Release\CinemaTicketBooking.dll
+E:\CinemaTicketBooking\CinemaTicketBooking\CinemaTicketBooking\obj\Release\CinemaTicketBooking.pdb
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\CinemaTicketBooking.dll.config
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\CinemaTicketBooking.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\CinemaTicketBooking.pdb
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\csc.exe
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\csc.exe.config
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\csc.rsp
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\csi.exe
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\csi.exe.config
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\csi.rsp
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.AppContext.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Collections.Immutable.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Console.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Globalization.Calendars.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.IO.Compression.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.IO.FileSystem.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Net.Http.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Net.Sockets.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Reflection.Metadata.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.ValueTuple.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Xml.XPath.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\vbc.exe
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\vbc.exe.config
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\vbc.rsp
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\VBCSCompiler.exe
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\VBCSCompiler.exe.config
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\obj\Release\CinemaTicketBooking.csproj.AssemblyReference.cache
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\obj\Release\CinemaTicketBooking.csproj.CoreCompileInputs.cache
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\obj\Release\CinemaTicketBooking.csproj.CopyComplete
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\obj\Release\CinemaTicketBooking.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\obj\Release\CinemaTicketBooking.pdb
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\Newtonsoft.Json.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\Razorpay.dll
+E:\Project files\CinemaTicketBooking\CinemaTicketBooking\bin\Newtonsoft.Json.xml
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\CinemaTicketBooking.dll.config
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\CinemaTicketBooking.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\CinemaTicketBooking.pdb
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\csc.exe
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\csc.exe.config
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\csc.rsp
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\csi.exe
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\csi.exe.config
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\csi.rsp
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.Managed.Core.targets
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.AppContext.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Collections.Immutable.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Console.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Globalization.Calendars.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.IO.Compression.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.IO.FileSystem.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Net.Http.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Net.Sockets.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Reflection.Metadata.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.ValueTuple.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Xml.XmlDocument.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Xml.XPath.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\vbc.exe
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\vbc.exe.config
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\vbc.rsp
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\VBCSCompiler.exe
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\roslyn\VBCSCompiler.exe.config
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\Newtonsoft.Json.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\Razorpay.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\Newtonsoft.Json.xml
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\obj\Release\CinemaTicketBooking.csproj.AssemblyReference.cache
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\obj\Release\CinemaTicketBooking.csproj.CoreCompileInputs.cache
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\obj\Release\CinemaTicketBooking.csproj.CopyComplete
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\obj\Release\CinemaTicketBooking.dll
+E:\My Projects\ASP.Net Cinema Booing Project\CinemaTicketBooking\CinemaTicketBooking\obj\Release\CinemaTicketBooking.pdb
