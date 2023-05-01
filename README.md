@@ -13,7 +13,7 @@ LynxCinema is an online platform designed to revolutionize the way people book m
 
 ## Authors
 
-- [@iamcoderdevesh](https://www.github.com/iamcoderdevesh)
+- [@iamcoderdevesh](http://lynxcinema-001-site1.atempurl.com/Homepage.aspx)
 
 
 ## License
